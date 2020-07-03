@@ -25,5 +25,26 @@ First, we need to install some extensions for writing R code in VS Code.
 * Color Pick
 * Quick and Simple Text Selection
 * Todo Tree
+* Project Manager
+* vscode-icons
 * Settings Sync (This will save your life!!!)
 
+## Writing R code in VS Code
+
+The best way to introduce code editing features is to show you how I do my R work in VS Code. We will cover:
+1. Create a new R script file
+2. Basic code editing
+   * Multiple-cursor editing
+   * Find and replace
+   * Quick selection
+   * Code folding
+   * Color picker
+   * Multiple panels
+3. Tips
+   * Snippets
+   * Quick blocks selection
+   * Command palette
+   * Project manage
+   * Todo Tree
+4. Git support
+5. Remote SSH
