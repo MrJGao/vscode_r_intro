@@ -18,7 +18,7 @@ First, we need to install some extensions for writing R code in VS Code.
 * languageserver
 
 **Optional Extensions**:
-* radian console (need to install it in Python)
+* radian console (need to install it in Python 3)
 * #region folding for VS Code
 * Better Comments
 * Bracket Pair Colorizer 2
