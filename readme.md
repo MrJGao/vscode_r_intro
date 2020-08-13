@@ -4,9 +4,9 @@ I have been using VS Code since it launched the first version when I was writing
 
 Nowadays, VS Code is almost the best editor you can find. It supports thousands of "extensions" developped by programmers all over the world, almost every fancy code editing feature you want can be found in the extension library. 
 
-If you are doing web developing, use html/css/javascript a lot, you are lucky because VS Code has everything you need. However, because of the later start, VS Code hasn't had all features support on R, which is widely used in the data science field (*if you use Python for data science, you are lucky as well, VS Code supports Python very well and it even support jupternotebooks. But, I don't want to argue if R or Python is the best choice for data science here*).
+If you are doing web developing, use html/css/javascript a lot, you are lucky because VS Code has everything you need. However, because of the later start, VS Code hasn't had all features support on R, which is widely used in the data science field (*if you use Python for data science, you are lucky as well, VS Code supports Python very well and it even support jupternotebooks. But, I don't want to argue whether R or Python is the best choice for data science here*).
 
-Even though VS Code hasn't support everything you can do in RStudio, for example, the R Markdown support is not good yet, it is still a fancy R code editor. Give me a second, I'll convince you.
+Even though VS Code hasn't supported everything you can do in RStudio, for example, the R Markdown support is not good yet, it is still a fancy R code editor. At least, give it a try, it'll surprise you!
 
 I recommend reading [this blog](https://renkun.me/2019/12/11/writing-r-in-vscode-a-fresh-start/).
 
