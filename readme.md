@@ -13,7 +13,7 @@ I recommend reading [this blog](https://renkun.me/2019/12/11/writing-r-in-vscode
 First, we need to install some extensions for writing R code in VS Code.
 
 **Required Extensions**:
-* vscode-R
+* vscode-R (wiki page: https://github.com/Ikuyadeu/vscode-R/wiki/Getting-Started)
 * vscode-r-lsp
 * languageserver
 
@@ -42,6 +42,7 @@ The best way to introduce code editing features is to show you how I do my R wor
    * Multiple panels
 3. Tips
    * Snippets
+   * Keybindings
    * Quick blocks selection
    * Command palette
    * Project manage
