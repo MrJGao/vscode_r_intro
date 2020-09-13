@@ -34,6 +34,8 @@ p5 <- getCoefs("p5", "model_3")
 p6 <- getCoefs("p6", "model_3")
 p7 <- getCoefs("p7", "model_3")
 
+# What if you find the word "model" should be "fitted_model"?
+
 #endregion [Muti-cursor editing]
 
 
