@@ -7,8 +7,8 @@
 # They're retrieved from a function named `getCoefs()`
 # The final code looks like below. How would you create it?
 model_1 <- "m1 + (m2 - m7 * t) * ((1 / (1 + exp((m3 - t) / m4))) - (1 / (1 + exp((m5 - t) / m6))))"
-model_2 <- "v1 + (v2 - v7 * log(t)) * ((1 / (1 + exp((v3 - t) / v4))) - (1 / (1 + exp((v5 - t) / v6))))"
-model_3 <- "p1 + (p2 - p7 * sin(t)) * ((1 / (1 + exp((p3 - t) / p4))) - (1 / (1 + exp((p5 - t) / p6))))"
+model_2 <- "v1 + (v2 - v7 * log(t)) * ((1 / (1 + exp((v3 - log(t)) / v4))) - (1 / (1 + exp((v5 - log(t)) / v6))))"
+model_3 <- "p1 + (p2 - p7 * sin(t)) * ((1 / (1 + exp((p3 - sin(t)) / p4))) - (1 / (1 + exp((p5 - sin(t)) / p6))))"
 
 m1 <- getCoefs("m1", "model_1")
 m2 <- getCoefs("m2", "model_1")
@@ -34,7 +34,9 @@ p5 <- getCoefs("p5", "model_3")
 p6 <- getCoefs("p6", "model_3")
 p7 <- getCoefs("p7", "model_3")
 
-# What if you find the word "model" should be "fitted_model"?
+# What if you find the word "model" should be "fitted_model"? 
+# What if you want to convert coefs to numeric?
+
 
 #endregion [Muti-cursor editing]
 
@@ -447,7 +449,7 @@ boxplot()
 # 2. Peek definition
 # 3. Back & Forth
 
-FitBayesianMixed()
+
 
 
 
@@ -465,18 +467,19 @@ source('https://gist.github.com/mrjgao/7bd6f978771746fd27a999c9a5c808c6/raw')
 
 
 
-# Terminal (cmd/ctrl+j or cmd/ctrl+`)####
+# Terminal (cmd/ctrl+j) ####
 #************************************************************
 # You can have mutiple terminals
 # Customize keyboard shortcuts can allow you jump through editor and terminal
 
-
+s <- 1
 
 # Remote SSH
 #************************************************************
 # 1. HPC
 # login
 ssh -Y xgao26@login.hpc.ncsu.edu
+
 # request a debug node
 bsub -Is -n 8 -x -W 60 tcsh
 
